@@ -7,8 +7,11 @@
 
 3) INSTALANDO ANONSURF
 3.1 mkdir Anonsurf && cd Anonsurf
+   
 3.2 git clone https://github.com/Und3rf10w/kali-anonsurf.git
+
 3.3 sudo ./installer.sh
+
 3.4 sudo anonsurf
 
 4. COMANDOS NO ANONSURF

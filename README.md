@@ -1,45 +1,38 @@
-# Annonsurf DEEP WEB
+## Instalação do Kali Linux em uma Máquina Virtual usando VirtualBox
 
-1. BAIXAR VIRTUAL BOX
+1. **Baixar e Instalar o VirtualBox:**
+   - [Baixar o VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+   - Siga as instruções para instalação.
 
-2. BAIXAR A IMAGEM DO KALI LINUX PARA VIRTUAL BOX
+2. **Baixar a imagem do Kali Linux para o VirtualBox:**
+   - [Baixar a imagem do Kali Linux](https://www.kali.org/downloads/)
+   - Escolha a versão adequada para sua máquina e siga as instruções para download.
 
+3. **Instalando e Configurando o Anonsurf:**
+   - Abra um terminal e execute os seguintes comandos:
+     ```bash
+     mkdir Anonsurf && cd Anonsurf
+     git clone https://github.com/Und3rf10w/kali-anonsurf.git
+     sudo ./installer.sh
+     sudo anonsurf
+     ```
+<H2> <b> ANONSURF <b><\H2>
+4. **Comandos úteis no Anonsurf:**
+   - `anonsurf start`: Inicia o serviço.
+   - `anonsurf stop`: Para o serviço.
+   - `anonsurf restart`: Reinicia o serviço.
+   - `anonsurf change`: Altera o IP do host.
+   - `anonsurf myip`: Mostra o IP atual.
+   - `anonsurf status`: Mostra o status do serviço em tempo real (upload e download).
 
+5. **Instalando o Navegador Tor:**
+   - Execute os seguintes comandos no terminal:
+     ```bash
+     sudo apt install -y tor torbrowser-launcher
+     torbrowser-launcher
+     ```
+   - Abra o navegador Tor e vá para as configurações.
+   - Marque a opção "Use Bridge" e selecione uma "Built-in Bridge" (Obsfs4).
 
-3) INSTALANDO ANONSURF
-3.1 mkdir Anonsurf && cd Anonsurf
-   
-3.2 git clone https://github.com/Und3rf10w/kali-anonsurf.git
-
-3.3 sudo ./installer.sh
-
-3.4 sudo anonsurf
-
-4. COMANDOS NO ANONSURF
-4.1 anonsurf start   //INICIA O SERVICO
-   
-4.2 anonsurf stop    //PARA O SERVICO
-
-4.3 anonsurf restart //REINICIA O SERVICO 
-
-4.4 anonsurf change  //ALTERA O IP DO HOST
-
-4.5 anonsurf myip   //MOSTRA O IP ATUAL
-
-4.6 anonsurf status //STATUS DO SERVICO EM TEMPO REAL (UPLOAD E DOWNLOAD)
-
-6. INSTALANDO O NAVEGADOR TOR  
-
-5.1 sudo apt install -y tor torbrowser-launcher
-
-5.2 torbrowser-launcher 
-
-5.3 Abrir navegador -> Ir em configuracoes 
-
-5.4 Marcar opcao Use Bridge > Selecionar uma Built0in Bridge (Obsfs4)
-
-
-TESTAR LINK
-http://tmnguwi25tpvx6lhsmmnxwqvkntepyqtaz3adhcezudl74ae7oclc7id.onion/
-
-7UnIfE
+## Testando o Acesso à Dark Web
+- Teste o link [http://tmnguwi25tpvx6lhsmmnxwqvkntepyqtaz3adhcezudl74ae7oclc7id.onion/](http://tmnguwi25tpvx6lhsmmnxwqvkntepyqtaz3adhcezudl74ae7oclc7id.onion/)

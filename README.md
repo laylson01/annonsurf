@@ -26,12 +26,15 @@
    - `anonsurf change`: Altera o IP do host.
    - `anonsurf myip`: Mostra o IP atual.
    - `anonsurf status`: Mostra o status do serviço em tempo real (upload e download).
-
+   - 
+**TOR**
 5. **Instalando o Navegador Tor:**
    - Execute os seguintes comandos no terminal:
      ```bash
      sudo apt install -y tor torbrowser-launcher
-     torbrowser-launcher
+     
+      - `torbrowser-launcher` : Executar no terminal
+     
      ```
    - Abra o navegador Tor e vá para as configurações.
    - Marque a opção "Use Bridge" e selecione uma "Built-in Bridge" (Obsfs4).

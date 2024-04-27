@@ -18,6 +18,19 @@
      sudo anonsurf
      ```
 
+3.2
+
+## Instalando e Configurando o Anonsurf
+
+1. **Criar um diretório e acessá-lo:**
+   ```bash
+   mkdir Anonsurf && cd Anonsurf
+   
+git clone https://github.com/Und3rf10w/kali-anonsurf.git
+
+
+
+
 4. **Comandos úteis no Anonsurf:**
    - `anonsurf start`: Inicia o serviço.
    - `anonsurf stop`: Para o serviço.

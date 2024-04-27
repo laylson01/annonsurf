@@ -11,26 +11,23 @@
 
 3. **Instalando e Configurando o Anonsurf:**
    - Abra um terminal e execute os seguintes comandos:
+  
+   - ## Criar e Acessar Diretório Anonsurf
      ```bash
      mkdir Anonsurf && cd Anonsurf
+     ```
+     ## Clonar Repositório do Anonsurf
+     ```bash
      git clone https://github.com/Und3rf10w/kali-anonsurf.git
+     ```
+     ```bash
+     ## Executar Instalador do Anonsurf
      sudo ./installer.sh
+     ```
+     # Iniciar Serviço Anonsurf
+     ```bash
      sudo anonsurf
      ```
-
-3.2
-
-## Instalando e Configurando o Anonsurf
-
-1. **Criar um diretório e acessá-lo:**
-   ```bash
-   mkdir Anonsurf && cd Anonsurf
-   
-git clone https://github.com/Und3rf10w/kali-anonsurf.git
-
-
-
-
 4. **Comandos úteis no Anonsurf:**
    - `anonsurf start`: Inicia o serviço.
    - `anonsurf stop`: Para o serviço.
@@ -43,6 +40,8 @@ git clone https://github.com/Und3rf10w/kali-anonsurf.git
    - Execute os seguintes comandos no terminal:
      ```bash
      sudo apt install -y tor torbrowser-launcher
+     ```
+     ```bash
      torbrowser-launcher
      ```
    - Abra o navegador Tor e vá para as configurações.

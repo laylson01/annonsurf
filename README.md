@@ -17,14 +17,15 @@
      mkdir Anonsurf && cd Anonsurf
      ```
      ## Clonar Repositório do Anonsurf
+     
      ```bash
      git clone https://github.com/Und3rf10w/kali-anonsurf.git
      ```
-     ```bash
-     ## Executar Instalador do Anonsurf
+     ## Clonar Repositório do Anonsurf
+     ```bash      
      sudo ./installer.sh
-     ```
-     # Iniciar Serviço Anonsurf
+      ```
+     ## Iniciar Serviço Anonsurf
      ```bash
      sudo anonsurf
      ```

@@ -7,8 +7,6 @@
 2. **Baixar a imagem do Kali Linux para o VirtualBox:**
    - [Baixar a imagem do Kali Linux](https://www.kali.org/downloads/)
    - Escolha a versão adequada para sua máquina e siga as instruções para download.
-   - 
-**ANNONSURF**
 
 3. **Instalando e Configurando o Anonsurf:**
    - Abra um terminal e execute os seguintes comandos:
@@ -26,18 +24,15 @@
    - `anonsurf change`: Altera o IP do host.
    - `anonsurf myip`: Mostra o IP atual.
    - `anonsurf status`: Mostra o status do serviço em tempo real (upload e download).
-   - 
-**TOR**
+
 5. **Instalando o Navegador Tor:**
    - Execute os seguintes comandos no terminal:
      ```bash
      sudo apt install -y tor torbrowser-launcher
-     
-      - `torbrowser-launcher` : Executar no terminal
-     
+     torbrowser-launcher
      ```
    - Abra o navegador Tor e vá para as configurações.
    - Marque a opção "Use Bridge" e selecione uma "Built-in Bridge" (Obsfs4).
 
-## Testando o Acesso à Dark Web
+## Testando o Acesso
 - Teste o link [http://tmnguwi25tpvx6lhsmmnxwqvkntepyqtaz3adhcezudl74ae7oclc7id.onion/](http://tmnguwi25tpvx6lhsmmnxwqvkntepyqtaz3adhcezudl74ae7oclc7id.onion/)

@@ -21,7 +21,7 @@
      ```bash
      git clone https://github.com/Und3rf10w/kali-anonsurf.git
      ```
-     ## Clonar Repositório do Anonsurf
+     ## Executar Instalador do Anonsurf
      ```bash      
      sudo ./installer.sh
       ```

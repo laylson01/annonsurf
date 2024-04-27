@@ -7,6 +7,8 @@
 2. **Baixar a imagem do Kali Linux para o VirtualBox:**
    - [Baixar a imagem do Kali Linux](https://www.kali.org/downloads/)
    - Escolha a versão adequada para sua máquina e siga as instruções para download.
+   - 
+**ANNONSURF**
 
 3. **Instalando e Configurando o Anonsurf:**
    - Abra um terminal e execute os seguintes comandos:
@@ -16,7 +18,7 @@
      sudo ./installer.sh
      sudo anonsurf
      ```
-<H2> <b> ANONSURF <b><\H2>
+
 4. **Comandos úteis no Anonsurf:**
    - `anonsurf start`: Inicia o serviço.
    - `anonsurf stop`: Para o serviço.
